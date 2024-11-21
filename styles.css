@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #d9534f; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 36px; 
+    line-height: 10;
+    margin: 0px 0; 
+    padding: 10px;
+}
+h1 {
+    background-image: url("welcomeToZomato.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.restaurant {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.restaurant img {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 5px;
+}
+
+.restaurant h2 {
+    font-size: 24px; /* Change the size as needed */
+}
+
+.restaurant p {
+    color: #666;
+}
