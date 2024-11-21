@@ -53,12 +53,12 @@ input[type="text"] {
 }
 
 .restaurant img {
-    width: 100%; /* Makes the image responsive */
+    width: 100%; 
     border-radius: 5px;
 }
 
 .restaurant h2 {
-    font-size: 24px; /* Change the size as needed */
+    font-size: 24px; 
 }
 
 .restaurant p {
